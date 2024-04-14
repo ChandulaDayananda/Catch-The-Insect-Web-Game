@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Catch The Insect</title>
+</head>
+<body>
+    <div class="screen">
+        <h1>CHATCH THE INSECT</h1>
+        <button class="btn" id="start-btn">PLAY GAME</button>
+    </div>
+    <div class="screen">
+        <h1>WHAT IS YOUR CHOICE?</h1>
+        <ul class="insect-list">
+            <li>
+                <button class="choose-insect-btn">
+                    <p>FLY</p>
+                    <img src="fly_PNG3946.png" alt="fly">
+                </button>
+            </li>
+            <li>
+                <button class="choose-insect-btn">
+                    <p>SPIDER</p>
+                    <img src="spider_PNG12.png" alt="spider">
+                </button>
+            </li>
+            <li>
+                <button class="choose-insect-btn">
+                    <p>ROACH</p>
+                    <img src="roach_PNG12163.png" alt="roach">
+                </button>
+            </li>
+        </ul>
+    </div>
+    <div class="screen game-container" id="game-container">
+        <h3 id="time" class="time">TIME : 00:00</h3>
+        <h3 id="score" class="score">SCORE : 00</h3>
+        <h5 id="message" class="message">
+            ARE YOU ANNOYED YET? <br>
+            YOU ARE PLAYING AN IMPOSSIBLE GAME!!
+        </h5>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
